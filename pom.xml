@@ -212,5 +212,10 @@
 	<modules>
 		<module>atcrowdfunding-bean</module>
 		<module>atcrowdfunding-common</module>
+		<module>atcrowdfunding-manager-api</module>
+		<module>atcrowdfunding-manager-impl</module>
+		<module>atcrowdfunding-potal-api</module>
+		<module>atcrowdfunding-potal-impl</module>
+		<module>atcrowdfunding-web</module>
 	</modules>
 </project>

@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd">
 	
 	<!-- 独立的JAVA类及方法 -->
-	<bean id="workJob" class="com.xw.atcrowdfunding.task.FinishWorkTask"></bean>
+	<bean id="workJob" class="com.example.task.FinishWorkTask"></bean>
 	<!-- 配置任务的具体类和方法 -->
 	<bean id="workTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<!-- 要调用的bean -->
